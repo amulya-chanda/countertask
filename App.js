@@ -5,7 +5,7 @@ function App() {
   let [count,setcount]=useState(0)
   return(
     <div className='counter'>
-      <h1>COUNTER</h1>
+      <h1>COUNTER APP</h1>
       {count}
       <div className='onclick_event'>
         <button onClick={()=>setcount(count+=1)}>increment</button>
